@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+  background-color: #121212; /* Темный фон */
+  color: #e6d9c8; /* Бежевый текст */
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f5deb3; /* Светло-бежевые заголовки */
+}
+
+button {
+  background-color: #e6d9c8; /* Бежевый фон кнопок */
+  color: #121212; /* Темный текст */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #f5deb3; /* Более светлый оттенок */
+}
+
+.product-card {
+  border: 1px solid #e6d9c8;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #1e1e1e;
+}
+
+.product-card img {
+  border-radius: 5px;
+}
+
+.cart-container {
+  border: 1px solid #e6d9c8;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #1e1e1e;
+}
+
+input, select {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #e6d9c8;
+  border-radius: 5px;
+  background-color: #121212;
+  color: #e6d9c8;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #f5deb3;
+}
